@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(223, 189, 255);
+}
+
+#pig {
+    text-align: center;
+}
+
+#pigh1 {
+    font-size: 30px;
+    font-family: monospace;
+    margin-bottom: 5%;
+}
+
+#nextb {
+    text-align: right;
+    padding-top: 100px;
+}
