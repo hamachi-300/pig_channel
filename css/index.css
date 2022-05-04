@@ -2,6 +2,10 @@ body {
     background-color: #FFC4DD;
 }
 
+a:hover {
+    color: lightgreen;
+}
+
 #pig {
     text-align: center;
 }
@@ -13,6 +17,6 @@ body {
 }
 
 #nextb {
-    text-align: right;
-    padding-top: 100px;
+    text-align: end;
+    padding-top: 10%;
 }
