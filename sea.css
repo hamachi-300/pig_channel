@@ -5,27 +5,6 @@ body{
     padding: 0%;
 }
 
-#bb a:link, a:visited {
-    background-color: rgb(20, 20, 20);
-    border: 3px outset rgb(50, 50, 50);
-    border-radius: 40%;
-    padding: 10px 10px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-#bb a:hover, a:active {
-    background-color: rgb(50, 50, 50);
-}
-
-table, th, td{
-    text-align: center;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(169, 242, 255);
-    border-collapse: collapse;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
