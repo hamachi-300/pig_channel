@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/sea.jpg);
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    font-family: monospace;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111111;
+    color: white;
+}
+
+#miss-pig {
+  text-align: center;
+  padding-top: 55%;
+}
+
+.section {
+  float: left;
+  padding: 5%;
+}
+
+#div-left {
+  width: 30%;
+  height: 800px;
+}
+#div-middle {
+  width: 40%;
+  height: 800px;
+}
+#div-right {
+  width: 30%;
+  height: 800px;
+}
+
+details > summary {
+  padding: 4px;
+  background-color: #c1c1c1;
+  width: 10%;
+  box-shadow: 1px 1px 1px rgb(66, 66, 66);
+  cursor: pointer;
+  border: none;
+  border-radius: 5%;
+}
+
+details > p {
+  padding: 4px;
+  background-color: #c1c1c1;
+  width: 40%;
+  box-shadow: 1px 1px 3px rgb(66, 66, 66);
+  border: none;
+  border-radius: 5%;
+}
