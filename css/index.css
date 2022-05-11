@@ -13,14 +13,14 @@ a:hover {
     text-align: center;
 }
 
-#pigh1 {
-    font-size: 2vw;
-    font-family: monospace;
-    margin-bottom: 5%;
+#pig-img {
+    width: 20%;
+    padding: 20px;
 }
 
-#comment {
-    font-size: 0.8vw;
+#pigh1 {
+    font-family: monospace;
+    margin-bottom: 5%;
 }
 
 #nextb {
@@ -62,15 +62,23 @@ li a:hover {
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-size: 0.8vw;
+    font-size: 15px;
     line-height: 20px;
     margin: 0;
     outline: none;
-    padding: 0.5vw vw;
+    padding: 8px;
     position: relative;
+    transition-duration: 0.4s;
 }
 
 #next:hover,
 #next:focus {
   background-color: #F082AC;
 }
+
+@media screen and (max-width: 800px) {
+
+    #pig-img {
+        width: 50%;
+    }
+  }

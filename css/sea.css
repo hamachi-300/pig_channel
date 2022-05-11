@@ -48,15 +48,15 @@ li a:hover {
 
 #div-left {
   width: 30%;
-  height: 800px;
+  height: 500px;
 }
 #div-middle {
   width: 40%;
-  height: 800px;
+  height: 500px;
 }
 #div-right {
   width: 30%;
-  height: 800px;
+  height: 500px;
 }
 
 details > summary {
@@ -79,11 +79,12 @@ details > p {
 }
 
 @media screen and (max-width: 800px) {
-  details > summary {
-    width: 100%;
-  }
 
-  details > p {
+  body {
+    background-image: url(../img/sea2.webp);
+  }
+  
+  #div-left, #div-middle, #div-right {
     width: 100%;
   }
 }
