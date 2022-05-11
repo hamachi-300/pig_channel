@@ -77,3 +77,13 @@ details > p {
   border: none;
   border-radius: 5%;
 }
+
+@media screen and (max-width: 800px) {
+  details > summary {
+    width: 100%;
+  }
+
+  details > p {
+    width: 100%;
+  }
+}

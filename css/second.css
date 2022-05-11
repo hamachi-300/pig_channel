@@ -49,3 +49,9 @@ h1{
 #youtube {
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: 100% 200%;
+    }
+}
