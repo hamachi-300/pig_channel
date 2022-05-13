@@ -40,7 +40,15 @@ ul {
 li {
     float: left;
   }
-  
+
+#form {
+    float: right;
+}
+
+#home {
+    background: #111111;
+}
+
 li a {
     display: block;
     color: white;
