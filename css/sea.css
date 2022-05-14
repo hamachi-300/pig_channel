@@ -95,4 +95,8 @@ details > p {
   #div-left, #div-middle, #div-right {
     width: 100%;
   }
+
+  .title {
+    font-size: 50%;
+  }
 }

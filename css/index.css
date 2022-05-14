@@ -35,27 +35,27 @@ ul {
     overflow: hidden;
     background-color: #333333;
     font-family: monospace;
-  }
+}
   
 li {
     float: left;
-  }
-
+}
+  
 #form {
     float: right;
 }
-
+  
 #home {
-    background: #111111;
+    background-color: #111111;
 }
-
+  
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-  }
+}
   
 li a:hover {
     background-color: #111111;
@@ -79,8 +79,7 @@ li a:hover {
     transition-duration: 0.4s;
 }
 
-#next:hover,
-#next:focus {
+#next:hover, #next:focus {
   background-color: #F082AC;
 }
 
@@ -89,4 +88,8 @@ li a:hover {
     #pig-img {
         width: 50%;
     }
-  }
+
+    .title {
+        font-size: 50%;
+    }
+}

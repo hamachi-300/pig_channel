@@ -62,4 +62,8 @@ h1{
     body {
         background-size: 200%;
     }
+
+    .title {
+        font-size: 50%;
+    }
 }
