@@ -22,21 +22,31 @@
     <section>
         <div id="jump" class="section">
             <h2>Side Bars</h2>
-           <hr>
-           <a href="#form1-label" class="jump-bar">Form 1</a><br><hr>
-           <a href="#form2-label" class="jump-bar">Form 2</a><br><hr>
-           <a href="#form3-label" class="jump-bar">Form 3</a><br><hr>
-           <a href="#form4-label" class="jump-bar">Form 4</a><br><hr>
-           <a href="#form5-label" class="jump-bar">Form 5</a><br><hr>
+            <hr>
+            <a href="#form1-label" class="jump-bar">Form 1</a><br><hr>
+            <a href="#form2-label" class="jump-bar">Form 2</a><br><hr>
+            <a href="#form3-label" class="jump-bar">Form 3</a><br><hr>
+            <a href="#form4-label" class="jump-bar">Form 4</a><br><hr>
+            <a href="#form5-label" class="jump-bar">Form 5</a><br><hr>
+            <a href="#form6-label" class="jump-bar">Form 6</a><br><hr>
+            <a href="#form7-label" class="jump-bar">Form 7</a><br><hr>
+            <a href="#form8-label" class="jump-bar">Form 8</a><br><hr>
+            <a href="#form9-label" class="jump-bar">Form 9</a><br><hr>
+            <a href="#form10-label" class="jump-bar">Form 10</a><br><hr>
+            <a href="#form11-label" class="jump-bar">Form 11</a><br><hr>
+            <a href="#form12-label" class="jump-bar">Form 12</a><br><hr>
+            <a href="#form13-label" class="jump-bar">Form 13</a><br><hr>
+            <a href="#form14-label" class="jump-bar">Form 14</a><br><hr>
+
         </div>
 
         <div id="content" class="section">
             <h2 id="form1-label">Form 1: NAME</h2><br>
             <form id="form1">
                 <label for="fname">Name : </label>
-                <input type="text" name="fname" id="fname"><br><br>
+                <input type="text" name="fname" id="fname" placeholder="First Name"><br><br>
                 <label for="lname">Last name : </label>
-                <input type="text" name="lname" id="lname">
+                <input type="text" name="lname" id="lname" placeholder="Last Name">
             </form><br>
             <hr>
             <h2 id="form2-label">Form 2: GENDER</h2>
@@ -47,7 +57,7 @@
                 <label for="women">Women</label>
             </form><br>
             <hr>
-            <h2 id="form3-label">Form 3: Question</h2>
+            <h2 id="form3-label">Form 3: About you</h2>
             <h4>Did you have it?</h3>
             <form>
                 <input type="checkbox" name="item" id="glasses" value="Glasses">
@@ -72,6 +82,7 @@
                     <option value="white">White</option>
                     <option value="none" selected>None</option>
                 </select>
+                <input type="color" id="favcolor" name="favcolor" value="#000">
             </form><br>
             <hr>
             <h2 id="form5-label">Form 5: Language</h2>
@@ -88,6 +99,92 @@
                     <option value="thai">Thai</option>
                 </select>
             </form><br>
+            <hr>
+            <h2 id="form6-label">Form 6: Wish</h2>
+            <h4>What do you wish now? tell me</h4>
+            <form>
+                <textarea name="wish" id="wish" cols="30" rows="10" placeholder="type what your wish here!!"></textarea><br><br>
+                <button type="button" onclick="alert('lol, this is just fake submit')">Submit</button>
+            </form><br>
+            <hr>
+            <h2 id="form7-label">Form 7: At home</h2>
+            <h4>What do you do?, if you are only one left in the world</h4>
+            <form>
+                <fieldset style="margin-left:20%; margin-right:20%">
+                    <legend>Answer</legend>
+                    <input type="radio" name="option" id="option1" value="market">
+                    <label for="option1">go to supermarket for find food.</label><br>
+                    <input type="radio" name="option" id="option2" value="cars">
+                    <label for="option2">find supercars and make it be yours.</label><br>
+                    <input type="radio" name="option" id="option3" value="travel">
+                    <label for="option3">walk away to see whole world look like.</label><br>
+                    <input type="radio" name="option" id="option4" value="rocket">
+                    <label for="option4">find rocket and go out from this world.</label><br>
+                    <input type="radio" name="option" id="option5" value="sleep">
+                    <label for="option5">do nothing, just continue sleeping.</label>
+                </fieldset>
+            </form><br>
+            <hr>
+            <h2 id="form8-label">Form 8: Country</h2>
+            <h4>What country do you want to live?</h4>
+            <form>
+                <input list="countries" name="countries">
+                <datalist id="countries">
+                    <option value="Japan"></option>
+                    <option value="Spain"></option>
+                    <option value="Ireland"></option>
+                    <option value="Singapore"></option>
+                    <option value="Panama"></option>
+                    <option value="None"></option>
+                </datalist>
+            </form><br>
+            <hr>
+            <h2 id="form9-label">Form 9: Level</h2>
+            <h4>How much are your level now?</h4>
+            <form oninput="x.value=parseInt(level.value)">
+                <input type="range" id="level" name="level" value="0" max="999">
+                <br>
+                <label for="x">Level : </label>
+                <output name="x" for="level"></output>
+            </form><br>
+            <hr>
+            <h2 id="form10-label">Form 10: Fake register</h2>
+            <form>
+                <label for="user-name">Username : </label>
+                <input type="text" id="user-name" name="user-name" placeholder="Name"><br><br>
+                <label for="phone">Telephone number : </label>
+                <input type="tel" id="phone" name="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="12" maxlength="12"><br><br>
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email" placeholder="Email"><br><br>
+                <label for="pass">Password : </label>
+                <input type="password" id="pass" name="pass" placeholder="Password">
+            </form><br>
+            <hr>
+            <h2 id="form11-label">Form 11: Birthday</h2>
+            <h4>What is your birthday?</h4>
+            <form>
+                <input type="date" id="birthday" name="birthday" min="1900-5-15">
+            </form><br>
+            <hr>
+            <h2 id="form12-label">Form 12: Calculate</h2>
+            <h4>99 + 99 = ?</h4>
+            <form>
+                <label for="ans">Answer : </label>
+                <input type="number" name="ans" id="ans" max="200" min="0">
+            </form><br>
+            <hr>
+            <h2 id="form13-label">Form 13: Time</h2>
+            <h4>What time is it?</h4>
+            <form>
+                <input type="time" name="time" id="time">
+            </form><br>
+            <hr>
+            <h2 id="form14-label">Form 14: Fridge</h2>
+            <h4>This is fridge</h4>
+            <form>
+                <input type="image" src="../img/fridge.png" alt="fridge" width="400">
+            </form><br>
+            <hr>
     </div>
     </section>
 </body>

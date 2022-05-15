@@ -84,4 +84,7 @@ section {
   h2 {
     font-size: x-small;
   }
+  .jump-bar {
+    font-size: 50%;
+  }
 }
