@@ -87,4 +87,7 @@ section {
   .jump-bar {
     font-size: 50%;
   }
+  #image input {
+    width: 50%;
+  }
 }
