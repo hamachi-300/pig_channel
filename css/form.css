@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth; 
 }
 
 body {
@@ -17,6 +18,9 @@ ul {
     overflow: hidden;
     background-color: #333333;
     font-family: monospace;
+    position: fixed;
+    width: 100%;
+    top: 0;
   }
   
 li {
@@ -54,13 +58,13 @@ section {
 #jump {
   background-color: #ddd;
   width: 10%;
-  height: 8000px;
+  height: auto;
   text-align: center;
 }
 
 #content {
   width: 90%;
-  height: 8000px;
+  height: auto;
   text-align: center;
   background-color: #eee;;
 }
