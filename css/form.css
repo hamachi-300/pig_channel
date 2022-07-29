@@ -1,3 +1,7 @@
+:root {
+  --color1: #333;
+}
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth; 
@@ -11,18 +15,23 @@ body {
     background-image: url(../img/white.jpg);
 }
 
-ul {
+.linkBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: var(--color1);
     font-family: monospace;
     position: fixed;
     width: 100%;
     top: 0;
+    transition: top 0.3s ease-out;
   }
   
+.linkBar.hide {
+  top: -50px;
+}
+
 li {
     float: left;
 }
